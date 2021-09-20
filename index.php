@@ -8,11 +8,9 @@ $client->forceRedirectOffer(); // redirect to offer if an offer is chosen //
 $client->param('sub_id_5', '123'); // you can send any params //
 $client->keyword('PASTE_KEYWORD'); // send custom keyword //
 $client->currentPageAsReferrer(); // to send current page URL as click referrer
-// $client->disableSessions(); // to disable using session cookie (without this
-cookie restoreFromSession wouldn't work) // $client->debug(); // to enable debug
-mode and show the errors // $client->execute(); // request to api, show the
-output and continue $client->executeAndBreak(); // to stop page execution if
-there is redirect or some output ?> <!DOCTYPE html>
+// $client->disableSessions(); // to disable using session cookie (without thiscookie restoreFromSession wouldn't work) 
+// $client->debug(); // to enable debugmode and show the errors // $client->execute(); // request to api, show theoutput and continue $client->executeAndBreak(); // to stop page execution ifthere is redirect or some output ?> 
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <base href="/" />
